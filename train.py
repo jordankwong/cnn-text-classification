@@ -61,7 +61,7 @@ x = np.reshape(x, (209, 20000))
 
 # Randomly shuffle data
 np.random.seed(10)
-shuffle_indices = np.random.permutation(np.arange(len(y)))
+shuffle_indices = np.random.permutation(np.arange(len(y)))  
 x_shuffled = x[shuffle_indices]
 y_shuffled = y[shuffle_indices]
 
